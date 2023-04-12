@@ -10,7 +10,7 @@ import {FilmPass} from "three/addons/postprocessing/FilmPass.js";
 
 export default function setupSlider({targetElement, imageList}) {
     window.addEventListener('resize', onWindowResize);
-    document.addEventListener('mousemove', onDocumentMouseMove);
+    // document.addEventListener('mousemove', onDocumentMouseMove);
     let mouseX = 0;
     let mouseY = 0;
 
